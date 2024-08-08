@@ -15,15 +15,14 @@ La señal seleccionada fue importada y graficada en Python utilizando el compila
 > Señal ECG.
 
 Posteriormente en el codigo, se calcularon los estadísticos descriptivos de dos maneras: utilizando comandos y librerías de Python, y aplicando fórmulas manualmente.
-En primer lugar, se calculó la** media**, que es una medida de tendencia central que representa el valor promedio de un conjunto de datos.
-Así mismo, se determinó la *desviación estándar*, una medida estadística que cuantifica la variabilidad o dispersión de los datos respecto a su media.
-El *coeficiente de variación (CV)* es otra medida estadística que expresa la desviación estándar en relación con la media del conjunto de datos, y se emplea para comparar la variabilidad entre diferentes conjuntos de datos.
-Además, se utilizó un *histograma* como herramienta gráfica para representar la distribución de los datos. El histograma muestra la frecuencia de los datos dentro de intervalos o rangos específicos, proporcionando una visualización clara de la distribución de los valores en el conjunto de datos.
+En primer lugar, se calculó la **media**, que es una medida de tendencia central que representa el valor promedio de un conjunto de datos.
+Así mismo, se determinó la **desviación estándar**, una medida estadística que cuantifica la variabilidad o dispersión de los datos respecto a su media.
+El **coeficiente de variación (CV)** es otra medida estadística que expresa la desviación estándar en relación con la media del conjunto de datos, y se emplea para comparar la variabilidad entre diferentes conjuntos de datos.
+Además, se utilizó un **histograma** como herramienta gráfica para representar la distribución de los datos. El histograma muestra la frecuencia de los datos dentro de intervalos o rangos específicos, proporcionando una visualización clara de la distribución de los valores en el conjunto de datos.
 
 ![](https://imgur.com/UaovcLA.png)
 
 
- 
 La **función de probabilidad** es una función matemática que tiene como objetivo describir la probabilidad de que una variable aleatoria tome un valor específico o se encuentre dentro de un intervalo de valores
 
 ![](https://imgur.com/wzJz8V4.png)
@@ -47,7 +46,7 @@ Como se puede observar, el SNR de Impulso positivo es mucho más alto que el SNR
 
 **RUIDO DE ARTEFACTO**
 Este se refiere a distorsiones no deseadas en los datos que pueden ser causadas por errores en el equipo o interferencias.
-En la primera imagen podemos observar el ruido de artefacto el cual tiene un SNR positivo cercano a los 17,3 dB, lo cual indica que el ruido artefacto tiene el menor impacto en la señal, por lo cual a señal es mas clara con respecto a este ruido, mientras que en la segunda imagen el ruido es mayor a la señal, por lo cua esta se distorciona mucho mas y es mas dificil reconocer la señal original 
+En la primera imagen podemos observar el ruido de artefacto el cual tiene un SNR positivo cercano a los 17,3 dB, lo cual indica que el ruido artefacto tiene el menor impacto en la señal, por lo cual a señal es mas clara con respecto a este ruido, mientras que en la segunda imagen el ruido es mayor a la señal, por lo cua esta se distorciona mucho mas y es mas dificil reconocer la señal original.
 
   ![](https://imgur.com/EO3OQgo.png)
    
